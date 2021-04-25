@@ -6,7 +6,7 @@ addNameANdAge();
 function addNameANdAge() {
   document.getElementById(
     "dataUser"
-  ).innerHTML += `<span id="UserName">UserName: ${question1}</span><br/><span  id="age">Age: ${age}</span>`;
+  ).innerHTML += `<p id="UserName">UserName: ${question1}</p><br/><p  id="age">Age: ${age}</p>`;
 }
 console.log("User name" + question1);
 console.log("age" + age);
